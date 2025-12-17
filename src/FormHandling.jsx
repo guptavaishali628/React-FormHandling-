@@ -15,6 +15,7 @@ const FormHandling = () => {
 
     // function for handleChange
     let handleChange=(e)=>{
+      //spread operator:
       setform({ ...form, [e.target.name]: e.target.value})
     }
 
